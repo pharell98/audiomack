@@ -1,0 +1,381 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: black;
+	padding-bottom: 20px;
+}
+.container-bar{
+	height: 80px;
+	width:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.title-bar a{
+	padding-top:20px; 
+	font-size: 50px;
+	letter-spacing: 5px;
+	font-family: old english text mt;
+	color: red;
+	font-weight: bold;
+	padding-left: 30px;
+	display: flex;
+	}
+.title-bar a span{
+    font-size: 40px;
+    color: maroon;
+    text-align: top;
+ }
+ .container-bar li{
+	 display: inline-block;
+	 padding-top: 40px;
+	 font-size: 20px;
+	 padding-right: 20px;
+}
+.container-bar li a{
+	font-family: algerian,sans serif;
+    color: white;
+    transition: 1s;
+
+}
+.container-bar li a:hover{
+	background-color: #333;
+	color: green;
+}
+.sous-menu1{
+	display: none;
+	position: absolute;
+}
+.sous-menu1 li:hover a{
+	color:crimson;
+}
+.sous-menu1{
+	display: none;
+	position: absolute;
+}
+.content:hover .sous-menu1{
+	display: block;
+}
+.sous-menu1 li{
+	display: block;
+	background-color: gray;
+	padding:2px 5px;
+}
+.sous-menu1 li:hover a{
+	color:crimson;
+}
+.sous-menu2{
+	display: none;
+	position: absolute;
+}
+.sous-menu2 li:hover a{
+	color:crimson;
+}
+.sous-menu2{
+	display: none;
+	position: absolute;
+}
+.content1:hover .sous-menu2{
+	display: block;
+}
+.sous-menu2 li{
+	display: block;
+	background-color: gray;
+	padding:2px 5px;
+}
+.sous-menu2 li:hover a{
+	color:crimson;
+}
+.search input{
+  box-sizing: border-box;
+  padding: 10px;
+  border:solid 3px maroon;
+  border-radius: 10px;
+ height: 10px;
+}
+/*<!-- ***************************************************************************
+**************************fin premiere partie***********************************
+********************************************************************************-->*/
+.img{
+	height:800px;
+	background: url(audio1.jfif);
+	 object-fit: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 100%;
+}
+.img .img-conten{
+	margin: 300px 150px;
+	font-size: 35px;
+	font-weight: bold;
+}
+.img .img-conten div{
+	color: maroon;
+	font-family:  old english text mt;
+}
+.img .img-conten span{
+	font-size: 20px;
+	margin-top: 200px;
+	font-family:  old english text mt;
+  }
+.img .img-conten a{
+	text-decoration: none;
+	border: solid crimson 1px ;
+	font-weight: bold;
+	border-radius: 20px;
+	margin-top:50px; 
+	background-color: crimson;
+    font-family: algerian;
+    color: white;
+    font-size: 40px;
+}
+.img .img-conten a:hover{
+	background-color: black;
+	color: crimson;
+}
+/****************************************************************************
+**************************fin deuxieme partie**********************************************
+***************************************************************************/*/
+.about{
+	padding: auto;
+}
+
+.about .titre{
+	position: static;
+	font-family: algerian,sans serif;
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	text-align: center;
+	justify-content: space-between;
+	text-decoration: underline red;
+}
+.about .about-conten{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	padding: 40px;
+}
+.about .colum-lef{
+	width: 45%;
+}
+.about .colum-left img{
+   width: 500px;
+   height: 450px;
+   object-fit: cover;
+   border-radius: 60px;
+   margin-left: 40px;
+}
+.about .colum-right{
+	width: 55%;
+}
+.about .colum-right .text{
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	text-indent: 10px;
+	text-align: justify;
+	margin-right: 80px;
+	padding-top: 0px;
+}
+.about .colum-right .text a{
+	padding-top:20px; 
+	font-size: 70px;
+	letter-spacing: 5px;
+	font-family: old english text mt;
+	font-weight: bold;
+	padding-left: 30px;
+	display: flex;
+	background-color: black;
+	color: white;
+	}
+.about .colum-right .text a span{
+    font-size: 40px;
+    color: maroon;
+    text-align: top;
+    background-color: black;
+ }
+ .about .colum-right p{
+ 	font-weight: bold;
+ 	font-family: algerian,sans seri;
+ 	text-align: justify;
+    padding-right: 80px;
+ }
+  .colum-right .lien a{
+  	display: inline-block;
+  	font-size: 30px;
+  	font-weight: bold;
+  	background-color: black;
+  	border:solid 2px crimson;
+  	border-radius: 20px;
+  	padding: 10px 40px;
+  	margin-bottom: -121px;
+  	color: white;
+  }
+ .colum-right .lien a:hover{
+ 	background-color: white;
+ 	font-weight: bold;
+ 	color: red;
+ }
+ .about:hover{
+ background-color: silver;
+ }
+ /**************************************************/
+ 
+ .artiste{
+ 	background-color: black;
+ 	padding: 45px 150px;
+ 	color: crimson;
+ 	margin-bottom: 40px;
+ }
+.artiste .title{
+	color: crimson;
+    position: static;
+    font-family: algerian;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 60px;
+    text-decoration: underline red;
+}
+.artiste .about-cont-artist{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.artiste .about-cont-artist .a1{
+	background-color: gray;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+    padding: 10px 30px;
+	text-align:left;
+	margin-right: 20px;
+	transition: all 1s ease;
+}
+.artiste .about-cont-artist .a1 .text{
+	font-weight: bold;
+	font-size: 30px;
+}
+.artiste .about-cont-artist .a1:hover{
+	background-color: crimson;
+}
+.artiste .about-cont-artist .a1:hover .text{
+	color: blue;
+}
+.artiste .about-cont-artist .a1:hover .b1{
+	transition: scale(1.05)
+}
+.artiste .about-cont-artist .a1 .b1 .b{
+	text-align: center;
+}
+.artiste .about-cont-artist .a1 .b1 .b img{
+	border-radius: 100%;
+	border:solid crimson 1px;
+}
+.m{
+	width: 100%;
+
+}
+/*<!-- ***************************************************************************************
+*************************cinquieme partie********************************************
+*************************************************************************************** -->*/
+.container{
+    display: flex;
+    padding-left: 100px; 
+ }
+ .container:hover{
+ 	background-color: silver;
+ }
+.container .title1{
+	font-size: 200%;
+	text-decoration: underline red;
+	font-weight: bold;
+	font-family: algerian,sans serif;
+}
+.container .title2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.container .title3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: auto;
+	margin-left:  40px;
+	text-decoration: underline red;
+   color: black;
+
+}
+ input{
+ 	margin-bottom: 10px;
+ 	margin-left:40px;
+ 	border:solid 1px black; 
+ 	border-radius: 20px;
+ 	padding: 5px;
+ }
+ textarea{
+ 	margin-left: 20px;
+ }
+ .mess{
+	color: blue;
+    display:inline-block;	
+	font-size: 	20px;
+	font-weight: 200px;
+	background-color: blue;
+	color: 	white;
+	border-radius: 20px;
+	padding: 5px 10px;
+	border:2px solid white	;
+ }
+  .mess:hover{
+  	background-color: black;
+  }
+ .End{
+       width: 100%;
+       height: 40px;
+       background: blue;
+       text-align: center;
+       padding-top:20px; 
+ }
+ .End span{
+
+     color: skyblue;
+       
+ }
+/**********************************************************************************
+**************************                            ***************************
+**********************************************************************************/
+.cont{
+	background-color: black;
+	padding:30px;
+}
+.cont1{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+.cont1 i{
+	letter-spacing: 5px;
+	font-family: old english text mt;
+	color: red;
+	font-weight: bold;
+	display: inline-block;
+}
+.cont1 i span{
+	color: maroon;
+
+}
